@@ -160,7 +160,6 @@ public SetServerConvars()
 	ConVar mp_match_restart_delay = FindConVar("mp_match_restart_delay");
 	ConVar mp_endmatch_votenextleveltime = FindConVar("mp_endmatch_votenextleveltime");
 	ConVar mp_endmatch_votenextmap = FindConVar("mp_endmatch_votenextmap");
-	ConVar sv_timebetweenducks = FindConVar("sv_timebetweenducks");
 	ConVar mp_halftime = FindConVar("mp_halftime");	
 	ConVar bot_zombie = FindConVar("bot_zombie");
 	ConVar sv_disable_immunity_alpha = FindConVar("sv_disable_immunity_alpha");
@@ -219,7 +218,6 @@ public SetServerConvars()
 	SetConVarBool(mp_match_end_restart, false);
 	SetConVarInt(mp_match_restart_delay, 10);
 	SetConVarFloat(mp_endmatch_votenextleveltime, 3.0);
-	SetConVarFloat(sv_timebetweenducks, 0.1);
 	SetConVarBool(mp_halftime, false);
 	SetConVarBool(bot_zombie, true);
 	SetConVarBool(mp_do_warmup_period, true);
